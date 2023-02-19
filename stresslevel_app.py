@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # Loading the trained model
-loaded_model = pickle.load(open('C:/Users/jeyasri/Downloads/STRESS LYSIS/stress_trained.sav','rb'))
+loaded_model = pickle.load(open('stress_trained.sav','rb'))
 
 def stresslevel_prediction(input_data):
     
